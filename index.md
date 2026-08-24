@@ -1,4 +1,4 @@
-<img src="/images/profile.jpg" alt="Shuchang (Orly) Liu" width="200">
+<img src="/images/profile.png" alt="Shuchang (Orly) Liu" width="200">
 
 ## Portfolio
 
