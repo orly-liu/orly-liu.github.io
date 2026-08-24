@@ -25,4 +25,4 @@ so the file works offline.
 > suppliers, costs, terminals and people are synthetic — only the structure
 > and statistical shape of the original are preserved.
 
-[**Launch the demo →**](/demos/spare-parts-finder.html)
+[**Launch the demo →**](/demos/spare-parts-finder-anonymized.html)
