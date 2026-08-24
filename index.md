@@ -1,9 +1,10 @@
-<img src="/images/profile.png" alt="Shuchang (Orly) Liu" width="200">
+## Projects
 
-## Portfolio
-
-Supply chain data analyst focused on inventory optimisation and procurement
-analytics. MS Global Supply Chain Management, USC Marshall (Dec 2026).
+Tools built during the inventory internship at APM Terminals, each
+replacing manual work and supporting managerial decisions.
+ 
+**The demos below run on anonymized data.** Numbers, descriptions, suppliers, costs, and personnel details were regenerated from scratch, preserving the original structure and statistical characteristics while ensuring that no actual records remain. The generator and the leak-detection check that
+verifies it are [on GitHub](https://github.com/orly-liu/orly-liu.github.io/tree/main/synthetic-data).
 
 ---
 
