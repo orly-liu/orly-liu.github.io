@@ -5,19 +5,19 @@ analytics. MS Global Supply Chain Management, USC Marshall (Dec 2026).
 
 ---
 
-### [Spare Parts Finder](/projects/spare-parts-finder.html)
-Warehouse lookup across a 24-terminal network. Cut part-lookup time from
-10 minutes to under 1.
-
-<img src="images/spare-parts.png" alt="Spare parts finder">
-
----
-
 ### [Liucent — Purchase Order Calendar](/projects/liucent.html)
 Replaces manual requisition tracking with a calendar view of open purchase
 orders by department and delivery urgency.
 
 <img src="images/liucent.png" alt="Purchase order calendar">
+
+---
+
+### [Spare Parts Finder](/projects/spare-parts-finder.html)
+Warehouse lookup across a 24-terminal network. Cut part-lookup time from
+10 minutes to under 1.
+
+<img src="images/spare-parts.png" alt="Spare parts finder">
 
 ---
 
