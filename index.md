@@ -13,6 +13,13 @@ orders by department and delivery urgency.
 
 ---
 
+### [Downtime-Sensitive Inventory Optimisation Calculator](/projects/inventory-calculator.html)
+EOQ, reorder point, critical-ratio, and Poison Distribution model for downtime-sensitive spare parts.
+
+<img src="images/calculator.png" alt="Downtime-sensitive inventory optimization calculator">
+
+---
+
 ### [Spare Parts Finder](/projects/spare-parts-finder.html)
 Warehouse lookup across a 24-terminal network. Cut part-lookup time from
 10 minutes to under 1.
@@ -26,13 +33,6 @@ Maintenance work orders and their material requirements, by week, with
 configurable cost-centre mapping.
 
 <img src="images/work-task.png" alt="Work task calendar">
-
----
-
-### [Inventory Optimisation Calculator](/projects/inventory-calculator.html)
-EOQ, reorder point and critical-ratio model for downtime-sensitive spares.
-
-<img src="images/calculator.png" alt="Downtime-sensitive inventory optimization calculator">
 
 ---
 
