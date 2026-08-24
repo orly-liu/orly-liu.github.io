@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Downtime Sensative Inventory Optimization Calculator
+title: Downtime Sensitive Inventory Optimization Calculator
 ---
 
 ## Inventory Optimization Calculator
@@ -40,4 +40,4 @@ compared side by side, and has a dark mode for warehouse floor screens.
 > **About the inputs.** The default values are illustrative rather than drawn
 > from any real part. Enter your own figures — the tool holds no embedded data.
 
-[**Launch the demo →**](/demos/downtime-sensative-inventory-optimization-calculator-anonymized.html)
+[**Launch the demo →**](/demos/downtime-sensitive-inventory-optimization-calculator-anonymized.html)
