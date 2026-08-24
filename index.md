@@ -1,3 +1,5 @@
+<img src="/images/profile.jpg" alt="Shuchang (Orly) Liu" width="200">
+
 ## Portfolio
 
 Supply chain data analyst focused on inventory optimisation and procurement
