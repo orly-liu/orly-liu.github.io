@@ -1,6 +1,8 @@
-## Projects
+## Project Demos
 
-Tools developed during the inventory internship to automate manual processes and support decision-making. The demos below use fully anonymized data: all numbers, descriptions, and supplier information were regenerated while preserving the original statistical characteristics. Click a header to launch each demo.
+Tools developed during the inventory internship to automate manual processes and support decision-making. The demos below use fully anonymized data: all numbers, descriptions, and names were regenerated while preserving the original statistical characteristics.
+
+Click a header to launch each demo.
 
 ---
 
@@ -12,7 +14,7 @@ orders by department and delivery urgency.
 
 ---
 
-### [Downtime-Sensitive Inventory Optimisation Calculator](/projects/inventory-optimization-calculator.md)
+### [Downtime-Sensitive Inventory Optimization Calculator](/projects/inventory-optimization-calculator.md)
 EOQ, reorder point, critical-ratio, and Poison Distribution model for downtime-sensitive spare parts.
 
 <img src="images/calculator.png" alt="Downtime-sensitive inventory optimization calculator">
