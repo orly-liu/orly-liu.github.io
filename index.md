@@ -1,10 +1,10 @@
 ## Projects
 
-Tools developed during the inventory internship to automate manual processes and support decision-making. The demos below use fully anonymized data: all numbers, descriptions, and supplier information were regenerated while preserving the original statistical characteristics.
+Tools developed during the inventory internship to automate manual processes and support decision-making. The demos below use fully anonymized data: all numbers, descriptions, and supplier information were regenerated while preserving the original statistical characteristics. Click a header to launch each demo.
 
 ---
 
-### [Liucent — Purchase Order Calendar](/projects/liucent-anonymized.html)
+### [Liucent — Purchase Order Calendar](/projects/liucent-anonymized.md)
 Replaces manual requisition tracking with a calendar view of open purchase
 orders by department and delivery urgency.
 
@@ -12,14 +12,14 @@ orders by department and delivery urgency.
 
 ---
 
-### [Downtime-Sensitive Inventory Optimisation Calculator](/projects/downtime-sensitive-inventory-calculator-anonymized.html)
+### [Downtime-Sensitive Inventory Optimisation Calculator](/projects/downtime-sensitive-inventory-calculator-anonymized.md)
 EOQ, reorder point, critical-ratio, and Poison Distribution model for downtime-sensitive spare parts.
 
 <img src="images/calculator.png" alt="Downtime-sensitive inventory optimization calculator">
 
 ---
 
-### [Spare Parts Finder](/projects/spare-parts-finder-anonymized.html)
+### [Spare Parts Finder](/projects/spare-parts-finder-anonymized.md)
 Warehouse inventory lookup across local shelves and a global network of 24 terminals. Cut part-lookup time from
 10 minutes to under 1.
 
@@ -27,7 +27,7 @@ Warehouse inventory lookup across local shelves and a global network of 24 termi
 
 ---
 
-### [Work Task Calendar](/projects/work-task-calendar-anonymized.html)
+### [Work Task Calendar](/projects/work-task-calendar-anonymized.md)
 Maintenance work orders and their material requirements, by week, with
 configurable cost-center mapping.
 
