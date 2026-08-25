@@ -1,8 +1,6 @@
 ## Projects
 
-Tools built during the inventory internship at APM Terminals, each
-replacing manual work and supporting managerial decisions. **The demos below run on anonymized data.** Numbers, descriptions, suppliers, costs, and personnel details were regenerated while preserving the original structure and statistical characteristics. The generator and the leak-detection check that
-verifies it are [on GitHub](https://github.com/orly-liu/orly-liu.github.io/tree/main/synthetic-data).
+Tools developed during the inventory internship to automate manual processes and support managerial decision-making. The demos below use fully anonymized data: all numbers, descriptions, supplier information, and personnel details were regenerated while preserving the original statistical characteristics.
 
 ---
 
