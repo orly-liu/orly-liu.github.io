@@ -1,6 +1,6 @@
 ## Projects
 
-Tools developed during the inventory internship to automate manual processes and support managerial decision-making. The demos below use fully anonymized data: all numbers, descriptions, supplier information, and personnel details were regenerated while preserving the original statistical characteristics.
+Tools developed during the inventory internship to automate manual processes and support decision-making. The demos below use fully anonymized data: all numbers, descriptions, and supplier information were regenerated while preserving the original statistical characteristics.
 
 ---
 
@@ -20,7 +20,7 @@ EOQ, reorder point, critical-ratio, and Poison Distribution model for downtime-s
 ---
 
 ### [Spare Parts Finder](/projects/spare-parts-finder-anonymized.html)
-Warehouse lookup across a 24-terminal network. Cut part-lookup time from
+Warehouse inventory lookup across local shelves and a global network of 24 terminals. Cut part-lookup time from
 10 minutes to under 1.
 
 <img src="images/spare-parts.png" alt="Spare parts finder">
@@ -29,7 +29,7 @@ Warehouse lookup across a 24-terminal network. Cut part-lookup time from
 
 ### [Work Task Calendar](/projects/work-task-calendar-anonymized.html)
 Maintenance work orders and their material requirements, by week, with
-configurable cost-centre mapping.
+configurable cost-center mapping.
 
 <img src="images/work-task.png" alt="Work task calendar">
 
