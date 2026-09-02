@@ -52,6 +52,7 @@
   --ink: #16232e;
   --body: #38495a;
   --muted: #6b7d8d;
+  --muted-strong: #556a7b;
   --accent: #2b6399;
   --accent-dark: #1f4a75;
   --rule: #dce3ea;
@@ -65,7 +66,9 @@ h1, h2, h3, h4, h5, h6 { color: var(--ink); font-weight: 600; letter-spacing: -.
 section h2 { margin-top: 0; font-size: 27px }
 section h3 { margin-top: 34px; font-size: 20px }
 section h3 a { color: var(--accent); text-decoration: none }
-section h3 a::before { content: "\2192\00a0"; color: var(--muted) }
+section h3 a::before {
+  content: "\25BA\00a0";
+  color: var(--muted); font-size: .72em; vertical-align: .08em }
 section h3 a:hover, section h3 a:focus {
   color: var(--accent-dark); text-decoration: underline }
 section h3 a:hover::before, section h3 a:focus::before { text-decoration: none }
@@ -80,7 +83,7 @@ header img {
   display: block; width: 100%; max-width: 260px; height: auto;
   margin: 0 0 20px; border-radius: 4px;
   border: 1px solid var(--rule) }
-header p { font-size: 14px; color: var(--muted) }
+header p { font-size: 14px; color: var(--muted-strong) }
 header .contact { font-size: 13px; line-height: 1.7 }
 
 p.view { font-size: 14px; margin: 8px 0 }
