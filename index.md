@@ -1,6 +1,6 @@
 ## Project Demos
 
-Tools developed during the inventory internship to automate manual processes and support decision-making. The demos below use fully anonymized data: all numbers, descriptions, and names were regenerated while preserving the original statistical characteristics.
+Tools developed during the inventory internship to automate manual workflows and support decision-making. The demos below use anonymized data and run locally: all numbers, descriptions, and names were regenerated while preserving the original statistical characteristics.
 
 **Click a header to launch each demo.**
 
@@ -34,16 +34,6 @@ Maintenance work orders and their material requirements, by week, with
 configurable cost-center mapping.
 
 <img src="images/work-task.png" alt="Work task calendar">
-
----
-
-### Other work
-
-- **Caterpillar Network Design** — financial and risk case for a $2.04B
-  capacity expansion; 36.8% ROI at a 2.7-year payback, with a sourcing
-  reallocation cutting annual tariff exposure from $832M to $33M.
-- **Maersk Vietnam Capstone** — PEST/SCOR analysis identifying the binding
-  constraint on throughput, with a cost-and-impact automation roadmap.
 
 ---
 
