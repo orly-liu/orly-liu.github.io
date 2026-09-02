@@ -3,7 +3,7 @@ layout: default
 title: Downtime-Sensitive Inventory Optimization Calculator
 ---
 
-## Inventory Optimization Calculator
+## Downtime-Sensitive Inventory Optimization Calculator
 
 [← Back to portfolio](/)
 
