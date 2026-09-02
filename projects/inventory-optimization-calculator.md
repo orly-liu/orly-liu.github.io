@@ -1,13 +1,11 @@
 ---
 layout: default
-title: Downtime Sensitive Inventory Optimization Calculator
+title: Downtime-Sensitive Inventory Optimization Calculator
 ---
 
 ## Inventory Optimization Calculator
 
 [← Back to portfolio](/)
-
-<img src="images/calculator.png" alt="Downtime-sensitive inventory optimization calculator">
 
 **Problem.** Reorder points for spare parts were set by rule of thumb. Standard
 EOQ balances holding cost against ordering cost, but it says nothing about what
@@ -42,4 +40,4 @@ compared side by side, and has a dark mode for warehouse floor screens.
 > **About the inputs.** The default values are illustrative rather than drawn
 > from any real part. Enter your own figures — the tool holds no embedded data.
 
-[**Launch the demo →**](/demos/downtime-sensitive-inventory-optimization-calculator-anonymized.html)
+<p><a class="launch" href="/demos/downtime-sensitive-inventory-optimization-calculator-anonymized.html" target="_blank" rel="noopener">Launch the demo →</a></p>
