@@ -27,8 +27,6 @@ columns by header name with alias fallbacks. The page captures its own untouched
 load, which is what lets the export produce a self-contained HTML
 file. No server or installation is required.
 
-```
-
 > **About the data.** This demo runs on generated data. Work order numbers,
 > part numbers, descriptions, costs, equipment IDs and people are synthetic —
 > only the structure and statistical shape of the original are preserved.
