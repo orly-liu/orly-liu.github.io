@@ -41,4 +41,4 @@ site can remap it once and keep their own version.
 > numbers, suppliers, prices, cost centres and people are synthetic — only the
 > structure and statistical shape of the original are preserved.
 
-[**Launch the demo →**](/demos/liucent-anonymized.html)
+<p><a class="launch" href="/demos/liucent-anonymized.html" target="_blank" rel="noopener">Launch the demo →</a></p>
