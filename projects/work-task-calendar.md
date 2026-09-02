@@ -50,4 +50,4 @@ reopens an exported file, edits it again and re-exports.
 > part numbers, descriptions, costs, equipment IDs and people are synthetic —
 > only the structure and statistical shape of the original are preserved.
 
-[**Launch the demo →**](/demos/work-task-calendar-anonymized.html)
+<p><a class="launch" href="/demos/work-task-calendar-anonymized.html" target="_blank" rel="noopener">Launch the demo →</a></p>
