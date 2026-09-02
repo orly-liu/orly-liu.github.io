@@ -6,7 +6,7 @@ Tools developed during the inventory internship to automate manual workflows and
 
 ---
 
-### [Liucent — Purchase Order Calendar ⮜](/projects/liucent.md)
+### [ᐳ Liucent — Purchase Order Calendar](/projects/liucent.md)
 Replaces manual requisition tracking with a calendar view of open purchase
 orders by department and delivery urgency.
 
@@ -14,14 +14,14 @@ orders by department and delivery urgency.
 
 ---
 
-### [Downtime-Sensitive Inventory Optimization Calculator ⮜](/projects/inventory-optimization-calculator.md)
+### [ᐳ Downtime-Sensitive Inventory Optimization Calculator](/projects/inventory-optimization-calculator.md)
 EOQ, reorder point, critical-ratio, and Poison Distribution model for downtime-sensitive spare parts.
 
 <img src="images/calculator.png" alt="Downtime-sensitive inventory optimization calculator">
 
 ---
 
-### [Spare Parts Finder ⮜](/projects/spare-parts-finder.md)
+### [⮞ Spare Parts Finder](/projects/spare-parts-finder.md)
 Warehouse inventory lookup across local shelves and a global network of 24 terminals. Cut part-lookup time from
 10 minutes to under 1.
 
@@ -29,7 +29,7 @@ Warehouse inventory lookup across local shelves and a global network of 24 termi
 
 ---
 
-### [Work Task Calendar ⮜](/projects/work-task-calendar.md)
+### [⮞ Work Task Calendar](/projects/work-task-calendar.md)
 Maintenance work orders and their material requirements, by week, with
 configurable cost-center mapping.
 
