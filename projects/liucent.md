@@ -7,10 +7,7 @@ title: Liucent — Interactive Purchase Order Calendar
 
 [← Back to portfolio](/)
 
-**Problem.** Tracking open purchase requisitions meant re-running the same ERP
-report and reading a flat list of order lines. Nothing showed what was arriving
-in a given week, and urgent lines sat buried among routine ones — so chasing a
-late delivery started with manually sorting a spreadsheet.
+**Problem.** Tracking open purchase requisitions meant re-running the same ERP report and reading a flat list of order lines. Nothing showed what was arriving in a given week, and urgent lines sat buried among routine ones. Anyone needing a status update had to chase a buyer or inventory manager and wait for them to search the ERP by hand, and the same question got answered over and over by the few people with access.
 
 **Approach.** Rebuilt the report as a week calendar. Order lines are grouped by
 purchase order and placed on their planned delivery date, ranked by delivery
