@@ -51,3 +51,4 @@ reopens an exported file, edits it again and re-exports.
 > only the structure and statistical shape of the original are preserved.
 
 <p><a class="launch" href="/demos/work-task-calendar-anonymized.html" target="_blank" rel="noopener">Launch the demo →</a></p>
+<img class="hero" src="/images/work-task.png" alt="Purchase order calendar">
