@@ -42,3 +42,4 @@ site can remap it once and keep their own version.
 > structure and statistical shape of the original are preserved.
 
 <p><a class="launch" href="/demos/liucent-anonymized.html" target="_blank" rel="noopener">Launch the demo →</a></p>
+<img class="hero" src="/images/liucent.png" alt="Purchase order calendar">
