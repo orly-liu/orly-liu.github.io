@@ -26,3 +26,4 @@ so the file works offline.
 > and statistical shape of the original are preserved.
 
 <p><a class="launch" href="/demos/spare-parts-finder-anonymized.html" target="_blank" rel="noopener">Launch the demo →</a></p>
+<img class="hero" src="/images/spare-parts.png" alt="Purchase order calendar">
