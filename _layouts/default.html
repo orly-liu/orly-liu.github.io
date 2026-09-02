@@ -7,7 +7,7 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
+      
       gtag('config', '{{ site.google_analytics }}');
    </script>
    {% endif %}
@@ -25,110 +25,43 @@
       <header>
          <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
          {% if site.logo %}
-         <img src="{{site.logo | relative_url}}" alt="{{ site.title }}" />
+         <img src="{{site.logo | relative_url}}" alt="Logo" />
          {% endif %}
+<p>{{ site.description }}</p>
 
-         <p>{{ site.description }}</p>
+<p>Master of Science in Global Supply Chain Management, USC Marshall, graduating in December 2026.</p>
 
-         <p>Master of Science in Global Supply Chain Management, USC Marshall, graduating in December 2026.</p>
-
-         <p class="contact">Los Angeles, CA<br>
-         <a href="mailto:shuchang.orly@gmail.com">shuchang.orly@gmail.com</a></p>
-
+<p>Los Angeles, CA</p>
+   
+<a href="mailto:shuchang.orly@gmail.com">shuchang.orly@gmail.com</a></p>
+         {% if site.github.is_project_page %}
+         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
+         {% endif %}
          <p class="view"><a href="https://linkedin.com/in/orly-liu">View My LinkedIn Profile</a></p>
          <p class="view"><a href="/pdf/resume.pdf" class="resume-link" target="_blank" rel="noopener">View My Résumé (PDF)</a></p>
+         {% if site.show_downloads %}
+         <ul class="downloads">
+            <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
+            <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
+            <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
+         </ul>
+         {% endif %}
       </header>
       <section>
          {{ content }}
       </section>
       <footer>
+         {% if site.github.is_project_page %}
+         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+         {% endif %}
          <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
    </div>
    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-
 <style>
-:root {
-  --ink: #16232e;
-  --body: #38495a;
-  --muted: #6b7d8d;
-  --accent: #2b6399;
-  --accent-dark: #1f4a75;
-  --rule: #dce3ea;
-  --tint: #eef3f8;
-  --page: #f7f9fb;
-}
-
-body { background: var(--page); color: var(--body); line-height: 1.65 }
-
-h1, h2, h3, h4, h5, h6 { color: var(--ink); font-weight: 600; letter-spacing: -.005em }
-section h2 { margin-top: 0; font-size: 27px }
-section h3 { margin-top: 34px; font-size: 20px }
-section h3 a { color: var(--ink) }
-section h3 a:hover { color: var(--accent) }
-
-a { color: var(--accent) }
-a:hover, a:focus { color: var(--accent-dark) }
-strong { color: var(--ink) }
-
-header h1 { font-size: 28px; margin-bottom: 18px }
-header h1 a { color: var(--ink); text-decoration: none }
-header img {
-  display: block; width: 165px; max-width: 100%; height: auto;
-  margin: 0 0 20px; border-radius: 50%;
-  border: 3px solid #fff; box-shadow: 0 0 0 1px var(--rule) }
-header p { font-size: 14px; color: var(--muted) }
-header .contact { font-size: 13px; line-height: 1.7 }
-
-p.view { font-size: 14px; margin: 8px 0 }
-p.view a { font-weight: 600; text-decoration: none }
-p.view a::before { content: "→ "; color: var(--muted) }
-p.view a:hover { text-decoration: underline }
-
-section { border-left: 1px solid var(--rule); padding-left: 34px }
-hr { height: 1px; margin: 34px 0; border: 0; background: var(--rule) }
-footer { color: var(--muted); border-top: 1px solid var(--rule); padding-top: 14px }
-footer a { color: var(--muted) }
-
-blockquote {
-  margin: 22px 0; padding: 14px 18px;
-  border-left: 3px solid var(--accent);
-  background: var(--tint); color: var(--body); font-style: normal }
-blockquote p { margin: 0 }
-
-code, pre { background: var(--tint); color: var(--ink); border-radius: 4px }
-pre { padding: 14px 16px; border: 1px solid var(--rule) }
-
-ul li { margin-bottom: 8px }
-
-.launch {
-  display: inline-block;
-  margin-top: 6px;
-  padding: 8px 15px;
-  font-size: 14px;
-  font-weight: 600;
-  color: #fff;
-  background: var(--accent);
-  border-radius: 6px;
-  text-decoration: none }
-.launch:visited { color: #fff }
-.launch:hover, .launch:focus { background: var(--accent-dark); color: #fff; text-decoration: none }
-
-.hero {
-  display: block; width: 100%; height: auto;
-  margin: 18px 0 26px;
-  border: 1px solid var(--rule); border-radius: 6px }
-
-@media print, screen and (max-width: 960px) {
-  section { border-left: 0; padding-left: 0 }
-}
-@media print, screen and (max-width: 720px) {
-  header img { width: 120px }
-}
-
 .resume-overlay {
   position: fixed; inset: 0; z-index: 999;
-  background: rgba(13, 24, 35, .74);
+  background: rgba(20, 22, 26, .72);
   display: flex; align-items: center; justify-content: center; padding: 24px }
 .resume-overlay[hidden] { display: none }
 .resume-modal {
@@ -139,16 +72,35 @@ ul li { margin-bottom: 8px }
 .resume-bar {
   display: flex; align-items: center; gap: 14px;
   padding: 10px 10px 10px 16px;
-  background: var(--tint); border-bottom: 1px solid var(--rule);
-  font: 600 14px/1.3 system-ui, sans-serif; color: var(--ink) }
+  background: #f5f6f7; border-bottom: 1px solid #dfe2e5;
+  font: 600 14px/1.3 system-ui, sans-serif; color: #24292e }
 .resume-bar .resume-title { flex: 1 }
 .resume-bar a { font-weight: 400; font-size: 13px }
 .resume-bar button {
   width: 30px; height: 30px; padding: 0; cursor: pointer;
-  border: 1px solid var(--rule); border-radius: 6px;
-  background: #fff; color: var(--ink); font-size: 19px; line-height: 1 }
-.resume-bar button:hover { background: #e3eaf2 }
+  border: 1px solid #dfe2e5; border-radius: 6px;
+  background: #fff; color: #24292e; font-size: 19px; line-height: 1 }
+.resume-bar button:hover { background: #eaecef }
 .resume-modal iframe { flex: 1; width: 100%; border: 0 }
+.launch {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  background: #334155;
+  border-radius: 6px;
+  text-decoration: none }
+.launch:visited { color: #fff }
+.launch:hover, .launch:focus { background: #0356b3; color: #fff; text-decoration: none }
+.hero {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 18px 0 26px;
+  border: 1px solid #dfe2e5;
+  border-radius: 6px }
 </style>
 
 <div class="resume-overlay" id="resumeOverlay" hidden>
