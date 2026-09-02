@@ -37,6 +37,7 @@
          <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
          {% endif %}
          <p class="view"><a href="https://linkedin.com/in/orly-liu">View My LinkedIn Profile</a></p>
+         <p class="view"><a href="/pdf/resume.pdf" id="resumeOpen" target="_blank" rel="noopener">View My Résumé (PDF)</a></p>
          {% if site.show_downloads %}
          <ul class="downloads">
             <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
@@ -56,5 +57,71 @@
       </footer>
    </div>
    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+<style>
+.resume-overlay {
+  position: fixed; inset: 0; z-index: 999;
+  background: rgba(20, 22, 26, .72);
+  display: flex; align-items: center; justify-content: center; padding: 24px }
+.resume-overlay[hidden] { display: none }
+.resume-modal {
+  display: flex; flex-direction: column;
+  width: min(900px, 100%); height: min(90vh, 100%);
+  background: #fff; border-radius: 8px; overflow: hidden;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, .35) }
+.resume-bar {
+  display: flex; align-items: center; gap: 14px;
+  padding: 10px 10px 10px 16px;
+  background: #f5f6f7; border-bottom: 1px solid #dfe2e5;
+  font: 600 14px/1.3 system-ui, sans-serif; color: #24292e }
+.resume-bar .resume-title { flex: 1 }
+.resume-bar a { font-weight: 400; font-size: 13px }
+.resume-bar button {
+  width: 30px; height: 30px; padding: 0; cursor: pointer;
+  border: 1px solid #dfe2e5; border-radius: 6px;
+  background: #fff; color: #24292e; font-size: 19px; line-height: 1 }
+.resume-bar button:hover { background: #eaecef }
+.resume-modal iframe { flex: 1; width: 100%; border: 0 }
+</style>
+
+<div class="resume-overlay" id="resumeOverlay" hidden>
+  <div class="resume-modal" role="dialog" aria-modal="true" aria-label="Résumé">
+    <div class="resume-bar">
+      <span class="resume-title">Shuchang (Orly) Liu — Résumé</span>
+      <a href="/pdf/resume.pdf" target="_blank" rel="noopener">Open in new tab</a>
+      <button type="button" id="resumeClose" aria-label="Close résumé">&times;</button>
+    </div>
+    <iframe src="/pdf/resume.pdf" title="Résumé"></iframe>
+  </div>
+</div>
+
+<script>
+(function () {
+  var link = document.getElementById('resumeOpen');
+  var overlay = document.getElementById('resumeOverlay');
+  var closeBtn = document.getElementById('resumeClose');
+  if (!link || !overlay) return;
+  var lastFocus = null;
+
+  function open(e) {
+    if (window.matchMedia('(max-width: 700px)').matches) return;
+    e.preventDefault();
+    lastFocus = document.activeElement;
+    overlay.hidden = false;
+    document.body.style.overflow = 'hidden';
+    closeBtn.focus();
+  }
+  function close() {
+    overlay.hidden = true;
+    document.body.style.overflow = '';
+    if (lastFocus) lastFocus.focus();
+  }
+  link.addEventListener('click', open);
+  closeBtn.addEventListener('click', close);
+  overlay.addEventListener('click', function (e) { if (e.target === overlay) close(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && !overlay.hidden) close();
+  });
+})();
+</script>   
 </body>
 </html>
