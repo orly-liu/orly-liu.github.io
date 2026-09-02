@@ -37,4 +37,4 @@ configurable cost-center mapping.
 
 ---
 
-[Résumé (PDF)](pdf/resume.pdf) · [LinkedIn](https://linkedin.com/in/orly-liu)
+[Résumé (PDF)](/pdf/resume.pdf){: .resume-link target="_blank" rel="noopener"} · [LinkedIn](https://linkedin.com/in/orly-liu)
