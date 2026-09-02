@@ -7,7 +7,7 @@ Tools developed during the inventory internship to automate manual workflows and
 ---
 
 ### [⮞ Liucent — Purchase Order Calendar](/projects/liucent.md)
-Replaces manual requisition tracking with a calendar view of open purchase
+Replaces manual requisition tracking in ERP with a calendar view of open purchase
 orders by department and delivery urgency.
 
 <img src="images/liucent.png" alt="Purchase order calendar">
