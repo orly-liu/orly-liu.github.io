@@ -21,7 +21,7 @@ EOQ, reorder point, critical-ratio, and Poison Distribution model for downtime-s
 
 ---
 
-### [► Spare Parts Finder](/projects/spare-parts-finder.md)
+### [► LAX Spare Parts Finder](/projects/spare-parts-finder.md)
 Warehouse inventory lookup across local shelves and a global network of 24 terminals. Cut part-lookup time from
 10 minutes to under 1.
 
