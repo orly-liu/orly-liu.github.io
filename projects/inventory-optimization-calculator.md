@@ -6,7 +6,7 @@ title: Downtime-Sensitive Inventory Optimization Calculator
 ## Downtime-Sensitive Inventory Optimization Calculator
 
 [← Back to portfolio](/)
-<img class="hero" src="/images/calculator.png" alt="Purchase order calendar">
+
 **Problem.** Reorder points for spare parts were set by rule of thumb. Standard
 EOQ balances holding cost against ordering cost, but it says nothing about what
 a stockout actually costs — and for a part that idles a crane, the cost of
@@ -41,3 +41,4 @@ compared side by side, and has a dark mode for warehouse floor screens.
 > from any real part. Enter your own figures — the tool holds no embedded data.
 
 <p><a class="launch" href="/demos/downtime-sensitive-inventory-optimization-calculator-anonymized.html" target="_blank" rel="noopener">Launch the demo →</a></p>
+<img class="hero" src="/images/calculator.png" alt="Purchase order calendar">
