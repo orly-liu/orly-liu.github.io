@@ -66,20 +66,6 @@ h1, h2, h3, h4, h5, h6 { color: var(--ink); font-weight: 600; letter-spacing: -.
 section h2 { margin-top: 0; font-size: 27px }
 section h3 { margin-top: 34px; font-size: 20px }
 section h3 a { color: var(--accent); text-decoration: none }
-/* Marker drawn in CSS rather than as a glyph, so its position does not
-   depend on whichever font the visitor's system substitutes. */
-section h3 a::before {
-  content: "";
-  display: inline-block;
-  width: 0; height: 0;
-  margin-right: .4em;
-  vertical-align: middle;
-  border-left: .4em solid var(--muted);
-  border-top: .3em solid transparent;
-  border-bottom: .3em solid transparent }
-section h3 a:hover, section h3 a:focus {
-  color: var(--accent-dark); text-decoration: underline }
-section h3 a:hover::before, section h3 a:focus::before { text-decoration: none }
 
 a { color: var(--accent) }
 a:hover, a:focus { color: var(--accent-dark) }
