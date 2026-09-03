@@ -2,7 +2,7 @@
 
 Tools developed during the inventory internship to automate manual workflows and support decision-making. The demos below use anonymized data and run locally: all numbers, descriptions, and names were regenerated while preserving the original statistical characteristics.
 
-**Click a header to launch each demo.**
+Click a header to launch each demo.
 
 ---
 
